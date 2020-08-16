@@ -1,4 +1,3 @@
-  GNU nano 2.9.3                                                                                                                      README.md                                                                                                                                
 
 # CTF Writeup for 'Misc/Guessy Discord flag???' (DarkCTF)
 
@@ -29,7 +28,7 @@ Discord has one too (https://discord.com/api/*) Heres the Documentation: https:/
 Theres is an endpoint were we can get more detailed informations about the server itself. (https://discord.com/api/guilds/[SERVER_ID])
 
 
-So now we only have to get the Server Id but that is easy, we only have to activate Developer Mode in the Discord Profile (Go to Settings/Appearnce and then activate Developer Mode) Now we can simply get the server ID by right click on the Server Name and click 'Copy ID'
+So now we only have to get the Server Id but that is easy, we only have to activate Developer Mode in the Discord Profile (Go to Settings/Appearance and then activate Developer Mode) Now we can simply get the server ID by right click on the Server Name and click 'Copy ID'
 
 
 Now we go to https://discord.com/api/guilds/[SERVER_ID] but:
