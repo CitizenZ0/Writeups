@@ -18,8 +18,10 @@ Author: White_Wolf
 
 The challenge is a Misc task and the only thing we have to do is find the flag on the DarkArmy (Creator of the DarkCTF) Discord Server.
 
+
 The first thing i did is searching for 'CTF' and 'darkCTF' with the discord search function to maybe find some flags, but no.
 Then i checked pinned messages and Channel description but there was nothing.
+
 
 I remembered that almost every service has an API were you can get more informations about a Server/Username or whatever.
 Discord has one too (https://discord.com/api/*) Heres the Documentation: https://discord.com/developers/docs/intro
@@ -37,8 +39,10 @@ Now we go to https://discord.com/api/guilds/[SERVER_ID] but:
 Thats because we didnt send any authorization headers to the server.
 When we use discord, we use the 'authorization' and 'x-super-properties' header for every action. Normaly it is sended when we use discord but not when we use the api manually.
 
+
 Now in order to use this api endpoint we need to send it with the request.
 I use ModHeader (A chrome addon for manipulating headers)
+
 
 Then i send the request and we get more detailed informations about the server and i found the flag:
 
