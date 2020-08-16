@@ -25,7 +25,7 @@ Then i checked pinned messages and Channel description but there was nothing.
 
 
 I remembered that almost every service has an API were you can get more informations about a Server/Username or whatever.
-Discord has one too (https://discord.com/api/*) Heres the Documentation: https://discord.com/developers/docs/intro
+Discord has one too (https://discord.com/api/*) Heres the Documentation: https://discord.com/developers/docs/intro.
 Theres is an endpoint were we can get more detailed informations about the server itself. (https://discord.com/api/guilds/[SERVER_ID])
 
 
