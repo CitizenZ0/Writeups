@@ -15,8 +15,7 @@ Description: Find the Flag on discord. Good Luck xD [Discord LINK]
 
 Author: White_Wolf
 
-
-
+.
 
 The challenge is a Misc task and the only thing we have to do is find the flag on the DarkArmy (Creator of the DarkCTF) Discord Server.
 
